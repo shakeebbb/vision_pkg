@@ -1,0 +1,9 @@
+<launch>
+		<node name="vision_remap" pkg="vision_pkg" type="vision_remap" output="screen"/>
+
+		<node name="drone_pose_node" pkg="vision_pkg" type="drone_pose_node" output="screen"/>
+
+		<node name="vision_node" pkg="vision_pkg" type="vision_node" output="screen"/>
+
+		<!-- <include file="$(find mavros)/launch/px4.launch" /> -->
+</launch>

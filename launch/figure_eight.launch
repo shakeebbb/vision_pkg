@@ -1,0 +1,8 @@
+<launch>
+		<include file="$(find mavros)/launch/px4.launch" />
+
+		<node name="vicon_remap" pkg="vision_pkg" type="vicon_remap" output="screen"/>
+
+		<node name="figure_eight_node" pkg="vision_pkg" type="figure_eight_node" output="screen"/>
+ 
+</launch>
