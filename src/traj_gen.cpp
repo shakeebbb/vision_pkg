@@ -18,12 +18,12 @@ vector<Point3f> waypoints_gen(vector<float>& endState, vector<float> odometry, i
 	// Preparing Log File ..........................................
 	
 	ofstream logFile;
-	logFile.open ("/home/marhes/vision_ws/src/vision_pkg/logs/flight_logs.txt", ios::app);
+	logFile.open ("/home/nvidia/ros_ws/src/vision_pkg/logs/flight_logs.txt", ios::app);
 	const time_t ctt = time(0);
 	logFile << asctime(localtime(&ctt)) << endl;
 
 	// Setting Up Local Goal For The Trajectory Patch To Be Generated ...........................
-	Point3_<float> globalGoal(2, 0, 1);	
+	Point3_<float> globalGoal(3.7, 0, 1);	
 		
 	// Preparing Array For Carrying New Waypoints ..............................
 

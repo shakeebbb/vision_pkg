@@ -45,6 +45,15 @@ int i = 0;
 areInCollision.clear();
 for (vector<Point3f>::iterator it = queryPoints.begin(); it < queryPoints.end(); it++)
 {
+//queryPoints[i].x = 1.2;
+//queryPoints[i].y = 0;
+//queryPoints[i].z = 0;
+
+//        projectionMatrix.at<double>(0,0) = 205.46;
+//        projectionMatrix.at<double>(0,2) = 320.5;
+//        projectionMatrix.at<double>(1,1) = 205.46;
+//        projectionMatrix.at<double>(1,2) = 240.5;
+ //       projectionMatrix.at<double>(2,2) = 1;
 
 cout << " queryPoint " << i << " : " << queryPoints[i] << endl;
 
@@ -81,7 +90,7 @@ Point3_<float> find_escape(bitset<4>& direction, Point3_<float> pointUnderCollis
 
 // Assumes quadrotor starts from (0,0,0)
 
-float dPlane = 3 * safetyRadius; // distance between expected collision plane and the projection ahead of the plane in which collision is expected to occur in z image coordinate
+float dPlane = 2 * safetyRadius; // distance between expected collision plane and the projection ahead of the plane in which collision is expected to occur in z image coordinate
 float dProjections = 0.5 *safetyRadius; // distance between successive projections in x-y image dimensions
 
 vector<Point3f> projectedPoints;

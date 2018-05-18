@@ -61,7 +61,7 @@ rectanglePoints_v.push_back( queryPosition + Point3f(-safetyRadius, safetyRadius
   	for (int j = rectanglePoints_i[1].x; j < rectanglePoints_i[2].x; j ++)
   	{
   		//cout << " Try ... " << endl;
-  		if(!imageBounds.contains(Point(i,j)))
+  		if(!imageBounds.contains(Point(j,i)))
   		{
   		isInCollision = 2;
   		cout << "Out of Bounds ... " << endl;

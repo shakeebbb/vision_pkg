@@ -30,6 +30,8 @@ vector<float> currentOdometry;
 vector<float> endState; 
 bitset<4> escapeDirection(15);
 
+geometry_msgs::PoseStamped lastCommandPose;
+
 bool doEscape = 1;
 
 ros::Publisher posePub;
@@ -50,9 +52,9 @@ Mat projectionMatrix(3,4,cv::DataType<double>::type);
 
 // Safety Bounds
 
-float x_bound[2] = {-0.6,1.3};
-float y_bound[2] = {-1.6,1.6};
-float z_bound[2] = {0,1.7};
+float x_bound[2] = {-0.6 , 5};
+float y_bound[2] = {-3 , 3};
+float z_bound[2] = {0 , 2};
 
 
 ////////////////////////////////////////////////
@@ -63,17 +65,16 @@ void odomCallback(const nav_msgs::Odometry&);
 void timerCallback(const ros::TimerEvent&);
 void flightModeCallback(const std_msgs::Int32&);
 bool isBounded(geometry_msgs::PoseStamped&);
+void setpoint_cb(const geometry_msgs::PoseStamped&);
 void init();
 
 int main(int argc, char **argv)
 {
  	//cv::namedWindow( "imgdepth");// Create a window for display.
 	//cv::startWindowThread();
-	
+
 	init();
-	
-	geometry_msgs::PoseStamped commandPose;
-	
+
   	ros::init(argc, argv, "vision_node");
 
   	ros::NodeHandle n;
@@ -83,18 +84,19 @@ int main(int argc, char **argv)
 	ros::Subscriber camInfoSub = n.subscribe("/zed/depth/camera_info", 100, camInfoCallback);
 	ros::Subscriber odomSub = n.subscribe("/mavros/local_position/odom", 100, odomCallback);
 	ros::Subscriber modeSub = n.subscribe("/flight_mode", 10, flightModeCallback);
-	
+	ros::Subscriber setpoint_sub = n.subscribe("/mavros/setpoint_position/local", 10, setpoint_cb);
+
 	// Publishers
 	posePub = n.advertise<geometry_msgs::PoseStamped>("/mavros/setpoint_position/local" ,100);
 	imgPub = n.advertise<sensor_msgs::Image>("/labeled_image" ,100);
-	
+
 	ros::Timer timer = n.createTimer(ros::Duration(Ts), timerCallback);
 
   //ros::Rate loop_rate(10);
   
-  //ros::spin();
+//  ros::spin();
   
-  	ros::AsyncSpinner spinner(3); // Use 4 threads
+  	ros::AsyncSpinner spinner(4); // Use 4 threads
 	spinner.start();
 	ros::waitForShutdown();
 
@@ -109,7 +111,7 @@ int main(int argc, char **argv)
 
 void init()
 {
-remove("/home/marhes/vision_ws/src/vision_pkg/logs/flight_logs.txt");
+remove("/home/nvidia/ros_ws/src/vision_pkg/logs/flight_logs.txt");
 }
 
 bool isBounded(geometry_msgs::PoseStamped& point)
@@ -163,14 +165,17 @@ void timerCallback(const ros::TimerEvent&)
 	return;
 
 	cout << " Timer Callback Called **************************************************************" << endl;
-	
-	if(trajIterator == currentTrajectory.size())
+
+	if(trajIterator == currentTrajectory.size() || currentTrajectory.empty())
 	{
+	lastCommandPose.header.stamp = ros::Time::now();
+	posePub.publish(lastCommandPose);
+
 	cout << "End of Trajectory" << endl;
 	//currentTrajectory.clear();
 	return;
 	}
-	
+
 	if(!currentTrajectory.empty())
 	{
 	cout << "Sending Next Waypoint" << currentTrajectory[trajIterator] << endl;
@@ -189,6 +194,11 @@ void timerCallback(const ros::TimerEvent&)
 
 	if(isBounded(commandPose))
 	posePub.publish(commandPose);
+	else
+	{
+	lastCommandPose.header.stamp = ros::Time::now();
+        posePub.publish(lastCommandPose);
+	}
 
 	trajIterator += 1;
 	}
@@ -200,7 +210,11 @@ void depthCallback(const sensor_msgs::Image& msg)
 {
 
 	if(flightMode != 2)
+	{
+	string s = msg.encoding;
+        ROS_INFO("%s", s.c_str());
 	return;
+	}
 
 Mat imgDepth; //depth map
 
@@ -374,4 +388,9 @@ cout << "Subscribed to Current Pose .... " << endl;
 void flightModeCallback(const std_msgs::Int32& msg)
 {
 flightMode = msg.data;
+}
+
+void setpoint_cb(const geometry_msgs::PoseStamped& msg)
+{
+	lastCommandPose = msg;
 }

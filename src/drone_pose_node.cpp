@@ -31,9 +31,9 @@ float xbox_pose[6] = {0,0,0,0,0,0};
 //Flight mode switch
 std_msgs::Int32 flightMode;
 
-float x_bound[2] = {-5,5};
-float y_bound[2] = {-5,5};
-float z_bound[2] = {0,1.7};
+float x_bound[2] = {-5 , 5};
+float y_bound[2] = {-5 , 5};
+float z_bound[2] = {-1 , 2.1};
 
 void init();
 bool isBounded(geometry_msgs::PoseStamped&);
@@ -80,7 +80,7 @@ int main(int argc, char **argv)
 		if(flightMode.data == 1) // Joystick Mode
 		{
         		setpoint.header.stamp = ros::Time::now();
-                        setpoint.pose.position.x += 0.004*(-1*xbox_pose[0]);
+                        setpoint.pose.position.x += 0.004*(xbox_pose[0]);
                         setpoint.pose.position.y += 0.004*xbox_pose[1];
                         setpoint.pose.position.z += 0.004*xbox_pose[2];
 
@@ -132,7 +132,7 @@ void init() // Take-off Parameters
 
 	setpoint.pose.position.x = 0;
 	setpoint.pose.position.y = 0;
-	setpoint.pose.position.z = 0.5;
+	setpoint.pose.position.z = 1;
 
 	setpoint.pose.orientation.x = quad_orientation.x();
 	setpoint.pose.orientation.y = quad_orientation.y();
@@ -191,13 +191,13 @@ void xbox_cb(const sensor_msgs::Joy& msg)
 	ROS_INFO("Autonomous Control");
   	}
 
-	if(abs(msg.axes[3])>0.2) //X
-		xbox_pose[0] = msg.axes[3];
+	if(abs(msg.axes[4])>0.2) //X
+		xbox_pose[0] = msg.axes[4];
 	else
 		xbox_pose[0] = 0;
 
-	if(abs(msg.axes[4])>0.2) //Y
-		xbox_pose[1] = msg.axes[4];
+	if(abs(msg.axes[3])>0.2) //Y
+		xbox_pose[1] = msg.axes[3];
 	else
 		xbox_pose[1] = 0;
 
