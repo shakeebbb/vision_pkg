@@ -23,7 +23,7 @@ vector<Point3f> waypoints_gen(vector<float>& endState, vector<float> odometry, i
 	logFile << asctime(localtime(&ctt)) << endl;
 
 	// Setting Up Local Goal For The Trajectory Patch To Be Generated ...........................
-	Point3_<float> globalGoal(3.7, 0, 1);	
+	Point3_<float> globalGoal(4.0, 0, 1);	
 		
 	// Preparing Array For Carrying New Waypoints ..............................
 

@@ -1,854 +1,815 @@
-Fri May 18 21:12:45 2018
+Fri May 18 23:28:48 2018
 
  # Mode 1 
- Got New Waypoints From LQR Solver: [0.12600097, 0.012368092, 0.68117779;
- 0.22809535, 0.033920504, 0.69373834;
- 0.38211137, 0.050550736, 0.71018302;
- 0.57469362, 0.062878028, 0.72941077;
- 0.7943027, 0.071489505, 0.75047851;
- 1.0310986, 0.0769343, 0.77258956;
- 1.276812, 0.079719625, 0.79508173;
- 1.5246077, 0.080308482, 0.81741464]
+ Got New Waypoints From LQR Solver: [0.3691484, -0.14911926, 0.62319732;
+ 0.46945515, -0.11466891, 0.63469577;
+ 0.62324804, -0.084588356, 0.65150917;
+ 0.81687003, -0.058645107, 0.67224872;
+ 1.0385129, -0.03656647, 0.69571614;
+ 1.2781001, -0.018053111, 0.72089136;
+ 1.5271559, -0.0027904566, 0.74691862;
+ 1.778668, 0.0095418114, 0.77309197]
  Checking For Collisions .......... 
- Trimmed Waypoints: [0.12600097, 0.012368092, 0.68117779;
- 0.22809535, 0.033920504, 0.69373834;
- 0.38211137, 0.050550736, 0.71018302;
- 0.57469362, 0.062878028, 0.72941077]
- New End State: [ 0.574694, 1.0438, 0.062878, 0.0516353, 0.729411, 0.101822]
-Fri May 18 21:12:45 2018
+ Trimmed Waypoints: [0.3691484, -0.14911926, 0.62319732;
+ 0.46945515, -0.11466891, 0.63469577;
+ 0.62324804, -0.084588356, 0.65150917;
+ 0.81687003, -0.058645107, 0.67224872]
+ New End State: [ 0.81687, 1.0518, -0.0586451, 0.119693, 0.672249, 0.1119]
+Fri May 18 23:28:48 2018
 
  # Mode 1 
- Got New Waypoints From LQR Solver: [0.7943027, 0.071489505, 0.75047851;
- 1.0310986, 0.0769343, 0.77258956;
- 1.276812, 0.079719625, 0.79508173;
- 1.5246077, 0.080308482, 0.81741464;
- 1.7689457, 0.079118691, 0.83915681;
- 2.0054421, 0.07652314, 0.85997361;
- 2.2307341, 0.072850809, 0.87961501;
- 2.442349, 0.068388574, 0.89790434]
+ Got New Waypoints From LQR Solver: [1.0385129, -0.03656647, 0.69571614;
+ 1.2781001, -0.018053111, 0.72089136;
+ 1.5271559, -0.0027904566, 0.74691862;
+ 1.778668, 0.0095418114, 0.77309197;
+ 2.0269463, 0.019261988, 0.7988407;
+ 2.2674816, 0.026680155, 0.82371461;
+ 2.4968078, 0.032093365, 0.84736991;
+ 2.7123699, 0.035782039, 0.86955512]
  Checking For Collisions .......... 
-Point in Collision : [1.76895, 0.0791187, 0.839157]
+Point in Collision : [2.26748, 0.0266802, 0.823715]
 Finding Escape in Directions : 1111
-Found Escape in Direction : 1111
-Goal Changed : [-1, -1, -1]
+Found Escape in Direction : 0001
+Goal Changed : [2.26748, -0.97332, 0.823715]
 Will Enter Mode 2 Next Time To Build Avoid Trajectory ............... 
-Fri May 18 21:12:45 2018
+Fri May 18 23:28:48 2018
+
+ # Mode 2 
+Initial State =    0.81687
+    1.0518
+-0.0586451
+  0.119693
+  0.672249
+    0.1119
+ Got New Waypoints From LQR Solver: [1.0483451, -0.084446996, 0.69673681;
+ 1.301047, -0.1853407, 0.72327769;
+ 1.5417173, -0.32026914, 0.74845195;
+ 1.7521281, -0.4620083, 0.77039802;
+ 1.9245752, -0.59402841, 0.78834242;
+ 2.0582333, -0.70763123, 0.80222058;
+ 2.1563675, -0.79952437, 0.8123877;
+ 2.2243128, -0.86988497, 0.81940925]
+ Checking For Collisions .......... 
+ Trimmed Waypoints: [1.0483451, -0.084446996, 0.69673681;
+ 1.301047, -0.1853407, 0.72327769;
+ 1.5417173, -0.32026914, 0.74845195;
+ 1.7521281, -0.4620083, 0.77039802]
+ New End State: [ 1.75213, 0.961475, -0.462008, -0.699332, 0.770398, 0.100146]
+Fri May 18 23:28:48 2018
+
+ # Mode 2 
+Initial State =   1.75213
+ 0.961475
+-0.462008
+-0.699332
+ 0.770398
+ 0.100146
+ Got New Waypoints From LQR Solver: [1.9245752, -0.59402841, 0.78834242;
+ 2.0582333, -0.70763123, 0.80222058;
+ 2.1563675, -0.79952437, 0.8123877;
+ 2.2243128, -0.86988497, 0.81940925;
+ 2.268095, -0.92089623, 0.82391876;
+ 2.2935615, -0.95569968, 0.82652813;
+ 2.3058896, -0.97769231, 0.82777768;
+ 2.3093674, -0.99009204, 0.82811373]
+ Checking For Collisions .......... 
+ Trimmed Waypoints: [1.9245752, -0.59402841, 0.78834242;
+ 2.0582333, -0.70763123, 0.80222058;
+ 2.1563675, -0.79952437, 0.8123877;
+ 2.2243128, -0.86988497, 0.81940925]
+ New End State: [ 2.22431, 0.271695, -0.869885, -0.299834, 0.819409, 0.0280283]
+Fri May 18 23:28:48 2018
+
+ # Mode 2 
+Initial State =   2.22431
+ 0.271695
+-0.869885
+-0.299834
+ 0.819409
+0.0280283
+ Finished Generating Avoid Trajectory ... Going To Mode 3 with doEscape = 0, Avoid Goal = [2.26748, -0.97332, 0.823715]
+Fri May 18 23:28:49 2018
+
+ # Mode 3 
+ New Goal :        4
+       0
+-0.97332
+       0
+0.823715
+       0
+ Got New Waypoints From LQR Solver: [2.29144, -0.92474216, 0.82448173;
+ 2.3808124, -0.96986538, 0.82854515;
+ 2.4862237, -1.0062257, 0.83171296;
+ 2.6023507, -1.0347857, 0.83409494;
+ 2.72469, -1.0564812, 0.83579552;
+ 2.8494914, -1.0722066, 0.83691299;
+ 2.9736881, -1.082805, 0.8375383;
+ 3.094826, -1.0890608, 0.83775485]
+ Checking For Collisions .......... 
+ Trimmed Waypoints: [2.29144, -0.92474216, 0.82448173;
+ 2.3808124, -0.96986538, 0.82854515;
+ 2.4862237, -1.0062257, 0.83171296;
+ 2.6023507, -1.0347857, 0.83409494]
+ New End State: [ 2.60235, 0.601302, -1.03479, -0.124491, 0.834095, 0.0100795]
+Fri May 18 23:28:49 2018
+
+ # Mode 3 
+ New Goal :        4
+       0
+-0.97332
+       0
+0.823715
+       0
+ Got New Waypoints From LQR Solver: [2.72469, -1.0564812, 0.83579552;
+ 2.8494914, -1.0722066, 0.83691299;
+ 2.9736881, -1.082805, 0.8375383;
+ 3.094826, -1.0890608, 0.83775485;
+ 3.210995, -1.0916946, 0.8376382;
+ 3.3207617, -1.0913609, 0.83725601;
+ 3.4231064, -1.0886477, 0.83666819;
+ 3.5173621, -1.084077, 0.83592713]
+ Checking For Collisions .......... 
+ Trimmed Waypoints: [2.72469, -1.0564812, 0.83579552;
+ 2.8494914, -1.0722066, 0.83691299;
+ 2.9736881, -1.082805, 0.8375383;
+ 3.094826, -1.0890608, 0.83775485]
+ New End State: [ 3.09483, 0.595336, -1.08906, -0.0213638, 0.837755, 0.000160366]
+Fri May 18 23:28:49 2018
+
+ # Mode 3 
+ New Goal :        4
+       0
+-0.97332
+       0
+0.823715
+       0
+ Got New Waypoints From LQR Solver: [3.210995, -1.0916946, 0.8376382;
+ 3.3207617, -1.0913609, 0.83725601;
+ 3.4231064, -1.0886477, 0.83666819;
+ 3.5173621, -1.084077, 0.83592713;
+ 3.6031606, -1.0781072, 0.83507824;
+ 3.6803803, -1.0711359, 0.83416015;
+ 3.7491016, -1.0635035, 0.83320546;
+ 3.8095651, -1.0554975, 0.83224112]
+ Checking For Collisions .......... 
+ Trimmed Waypoints: [3.210995, -1.0916946, 0.8376382;
+ 3.3207617, -1.0913609, 0.83725601;
+ 3.4231064, -1.0886477, 0.83666819;
+ 3.5173621, -1.084077, 0.83592713]
+ New End State: [ 3.51736, 0.450427, -1.08408, 0.0268851, 0.835927, -0.00402721]
+Fri May 18 23:28:49 2018
+
+ # Mode 3 
+ New Goal :        4
+       0
+-0.97332
+       0
+0.823715
+       0
+ Got New Waypoints From LQR Solver: [3.6031606, -1.0781072, 0.83507824;
+ 3.6803803, -1.0711359, 0.83416015;
+ 3.7491016, -1.0635035, 0.83320546;
+ 3.8095651, -1.0554975, 0.83224112;
+ 3.8621352, -1.0473568, 0.83128893;
+ 3.907268, -1.0392765, 0.83036631;
+ 3.9454854, -1.0314121, 0.82948655;
+ 3.9773495, -1.0238843, 0.82865947]
+ Checking For Collisions .......... 
+ Trimmed Waypoints: [3.6031606, -1.0781072, 0.83507824;
+ 3.6803803, -1.0711359, 0.83416015;
+ 3.7491016, -1.0635035, 0.83320546;
+ 3.8095651, -1.0554975, 0.83224112]
+ New End State: [ 3.80957, 0.282061, -1.0555, 0.0406364, 0.832241, -0.0048155]
+Fri May 18 23:28:49 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:45 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:45 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:45 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:45 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:49 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:46 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:50 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:47 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:51 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
-Fri May 18 21:12:48 2018
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
 
- # Mode 2 
-Initial State =  0.574694
-   1.0438
- 0.062878
-0.0516353
- 0.729411
- 0.101822
- Stuckkkk ... Sending Empty Trajectory 
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:52 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:53 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:54 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:55 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E
+Fri May 18 23:28:56 2018
+
+M I S S I O N ... C O M P L E T E

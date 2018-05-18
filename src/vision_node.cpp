@@ -94,7 +94,7 @@ int main(int argc, char **argv)
 
   //ros::Rate loop_rate(10);
   
-//  ros::spin();
+  ros::spin();
   
   	ros::AsyncSpinner spinner(4); // Use 4 threads
 	spinner.start();
