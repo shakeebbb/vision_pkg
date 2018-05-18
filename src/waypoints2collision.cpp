@@ -90,7 +90,7 @@ Point3_<float> find_escape(bitset<4>& direction, Point3_<float> pointUnderCollis
 
 // Assumes quadrotor starts from (0,0,0)
 
-float dPlane = 2 * safetyRadius; // distance between expected collision plane and the projection ahead of the plane in which collision is expected to occur in z image coordinate
+float dPlane = 3 * safetyRadius; // distance between expected collision plane and the projection ahead of the plane in which collision is expected to occur in z image coordinate
 float dProjections = 0.5 *safetyRadius; // distance between successive projections in x-y image dimensions
 
 vector<Point3f> projectedPoints;
