@@ -1,6 +1,8 @@
 # vision_pkg
 Code For Thesis
 
+DESCRIPTION OF FUNCTIONS:
+
 figure_eight.launch : launches mavros, figure_eight_node, vicon_remap
   figure_eight_node : quadrotor hovers at initial point in A mode while going for figure eight from initial point when B is pressed
   vicon_remap : Remaps transform msg from /vicon/quad3/quad3 to pose stamped msg /mavros/mocap/pose
@@ -37,7 +39,7 @@ waypoints2collision : camOffset saves camera offset from the robot origin to ens
 		      dplane, dprojections in findescape to set the location of the rectagular sheild
 		      
 
-References:
+REFERENCES:
 
 Ahmad, Shakeeb. "High-Performance Testbed for Vision-Aided Autonomous Navigation for Quadrotor UAVs in Cluttered Environments." (2018). https://digitalrepository.unm.edu/ece_etds/416 
 										  
