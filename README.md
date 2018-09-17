@@ -24,7 +24,7 @@ waypoints2collision : waypoints2collision transforms each waypoint received from
 
 cspace2collision : forms a rectangle around and infront of the given point according to the safetyRadius and checks each point in that for collision or occlusions. Right now occlusions are treated as no collision while forming trajectories
 
-Parameters To Change
+PARAMETERS:
 
 vision_node : stupidOffset subtracts the steady offset if any while sending each waypoint to mavros
 	      Ts is the sampling time of the discrete controller/system
