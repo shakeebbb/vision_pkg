@@ -35,6 +35,11 @@ traj_gen :    logFile location to save the flight logs
 						  
 waypoints2collision : camOffset saves camera offset from the robot origin to ensure safety radius is at right location around the robot
 		      dplane, dprojections in findescape to set the location of the rectagular sheild
+		      
+
+References:
+
+Ahmad, Shakeeb. "High-Performance Testbed for Vision-Aided Autonomous Navigation for Quadrotor UAVs in Cluttered Environments." (2018). https://digitalrepository.unm.edu/ece_etds/416 
 										  
 				
 
