@@ -1,6 +1,5 @@
 // Takes a query point in camera coordinate frame, makes a rectangular sheild infront of it, projects this shield and checks each point in the shield for collision is depth space
 
-
 #include "local_functions.h"
 
 using namespace cv;

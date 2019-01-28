@@ -1,5 +1,4 @@
 
-
 #include "local_functions.h"
 
 using namespace std;

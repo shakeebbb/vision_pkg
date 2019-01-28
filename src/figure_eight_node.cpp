@@ -9,7 +9,6 @@
 #include <math.h>
 #include <time.h>
 
-
 using namespace std;
 
 // Globals
