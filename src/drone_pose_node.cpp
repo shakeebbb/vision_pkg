@@ -12,7 +12,6 @@
 #include <tf/transform_datatypes.h>
 
 using namespace std;
-
 // Globals
 mavros_msgs::State current_state;
 geometry_msgs::PoseStamped setpoint;

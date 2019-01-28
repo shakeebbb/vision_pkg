@@ -6,7 +6,6 @@ using namespace std;
 using namespace cv;
 using namespace Eigen;
 
-
 vector<int> waypoints2collision
 (vector<Point3f> queryPoints, vector<float> currentPose, float safetyRadius, Mat& projectionMatrix, Mat& distortionVector, Mat& imgDepth, Mat& imgRgb)
 {

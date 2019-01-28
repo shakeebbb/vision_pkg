@@ -7,7 +7,6 @@
 #include "local_functions.h"
 #include "nav_msgs/Odometry.h"
 #include "std_msgs/Int32.h"
-
 #include <stdio.h>
 
 using namespace std;

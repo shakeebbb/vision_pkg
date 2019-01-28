@@ -1,6 +1,5 @@
 <launch>
 		<!-- <include file="$(find mavros)/launch/px4.launch" /> -->
-
 		<node name="vision_remap" pkg="vision_pkg" type="vision_remap" output="screen"/>
 
 		<node name="figure_eight_node" pkg="vision_pkg" type="figure_eight_node" output="screen"/>

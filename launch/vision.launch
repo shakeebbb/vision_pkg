@@ -6,4 +6,5 @@
 		<node name="vision_node" pkg="vision_pkg" type="vision_node" output="screen"/>
 
 		<!-- <include file="$(find mavros)/launch/px4.launch" /> -->
+		
 </launch>

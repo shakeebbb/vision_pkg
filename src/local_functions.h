@@ -5,7 +5,6 @@
 #include "fstream"
 #include "ctime"
 #include "bitset"  
-
 #include "cv_bridge/cv_bridge.h"
 #include "opencv2/core.hpp"
 #include "opencv2/imgproc.hpp"
