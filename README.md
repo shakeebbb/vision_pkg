@@ -3,8 +3,8 @@ Code For Thesis
 
 C++ Functions Called from vision_node
 
-traj_gen : Lqr solver function is for waypoints generation for a certain time horizon
-		   Waypoints gen check the trajectory received from lqr solver for collisions and controls mode changes
+traj_gen : Lqr solver function is for waypoints generation for a certain time horizon.
+		   Waypoints gen checks the trajectory received from lqr solver for collisions and controls mode changes
 						 
 waypoints2collision : waypoints2collision transforms each waypoint received from traj_gen, transforms it to camera coordinates and send to cspace2collision for collision checking
 		      findescape finds the escape in all directions represented by the binary 4 digit and returns the escape point or (-1,-1,-1) if all directions are blocked 
