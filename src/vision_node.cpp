@@ -13,7 +13,7 @@ using namespace std;
 using namespace cv;
 
 //////// Global Variables //////////////////////
-Point3_<float> stupidOffset(0, 0.0, 0);
+Point3_<float> sOffset(0, 0.0, 0);
 
 Point3_<float> goal(-5,-5,-5);
 
@@ -180,9 +180,9 @@ void timerCallback(const ros::TimerEvent&)
 	cout << "Sending Next Waypoint" << currentTrajectory[trajIterator] << endl;
 	geometry_msgs::PoseStamped commandPose;
 
-	commandPose.pose.position.x = currentTrajectory[trajIterator].x - stupidOffset.x;
-	commandPose.pose.position.y = currentTrajectory[trajIterator].y - stupidOffset.y;
-	commandPose.pose.position.z = currentTrajectory[trajIterator].z - stupidOffset.z;
+	commandPose.pose.position.x = currentTrajectory[trajIterator].x - sOffset.x;
+	commandPose.pose.position.y = currentTrajectory[trajIterator].y - sOffset.y;
+	commandPose.pose.position.z = currentTrajectory[trajIterator].z - sOffset.z;
 
 	commandPose.pose.orientation.x = 0;
 	commandPose.pose.orientation.y = 0;

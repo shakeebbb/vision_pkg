@@ -13,7 +13,7 @@ cspace2collision : forms a rectangle around and infront of the given point accor
 
 PARAMETERS:
 
-vision_node : stupidOffset subtracts the steady offset if any while sending each waypoint to mavros
+vision_node : sOffset subtracts the steady offset if any while sending each waypoint to mavros
 	      Ts is the sampling time of the discrete controller/system
 	      Th is the time horizon for the trajectory generation
 	      Subscribers and publishers topics
